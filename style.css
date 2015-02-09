@@ -1,0 +1,73 @@
+/*
+Theme Name: Lemming Theme
+Theme URI: http://bulletprooflemming.com
+Author: Blake Carpenter
+Author URI: http://bulletprooflemming.com
+Description: Theme for the Bulletproof Lemming website.
+Version: 1.0
+*/
+
+@import url('css/bootstrap.min.css');
+
+body{
+	background: ur l('http://bulletprooflemming.com/wp-content/themes/lemming-theme/images/aurora.jpg');
+	background-color: #555;
+	background-position: center top;
+	color: #ddd;
+}
+
+body a{color: #ff7519;}
+body a:hover{color: #ff7519;text-decoration:none;}
+
+div{
+	border: sol id 1px #555;
+}
+
+.logo{
+	width: 100%;
+}
+
+.sidebar{
+	padding: 0px;
+	background-color: #000;
+}
+
+.sidebar a{
+	color: #fff;
+}
+
+.sidebar #menu-main-nav{
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+.sidebar #menu-main-nav a{
+	padding: 5px 0px 5px 25px;
+	display: block;
+	font-size: 18px;
+}
+
+.sidebar #menu-main-nav a:hover{
+	color: #fff;
+	background-color: #ff7519;
+	text-decoration: none;
+}
+
+.sidebar #menu-main-nav .sub-menu{
+	list-style: none;
+	padding: 0px;
+}
+
+.main-content{
+	padding-left: 50px;
+	padding-top: 75px;
+}
+
+.title-row, .content-row, .footer-row{
+	background-color: rgba(17, 17, 17,.7);
+	margin-bottom: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
